@@ -10,6 +10,14 @@ qt_standard_project_setup(REQUIRES 6.5)
 
 qt_add_executable(appffnx-migration-tool
     src/main.cpp
+    src/qmain.h
+    src/qmain.cpp
+    src/core/converter.h
+    src/core/converter.cpp
+    src/core/data.h
+    src/core/data.cpp
+    src/core/texturepaths.h
+    src/core/texturepaths.cpp
 )
 
 qt_add_qml_module(appffnx-migration-tool
